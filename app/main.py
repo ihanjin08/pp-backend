@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 from app.rag_framework.embed import embed
 from app.rag_framework.rag_search import bm25_rag_search
 from app.rag_framework.grade_strand import grade_strand
+from app.rag_framework.final_grade import final_grade
 
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
@@ -43,4 +44,7 @@ async def grade(input: Assignment):
         strand_feedback = grade_strand(ranked_chunks, input.subject, input.criterion, i, client, strands_data)
         feedback.append(strand_feedback)
     
-    return feedback
+    final = final_grade(feedback, client, input.criterion, input.subject)
+    print(feedback)
+
+    return (feedback,final)
