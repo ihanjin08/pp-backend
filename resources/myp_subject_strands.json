@@ -1,0 +1,827 @@
+{
+    "Arts": {
+        "A": {
+            "Descriptors": [
+                "i. demonstrate knowledge and understanding of the art form studied, including concepts, processes, and the use of subject-specific terminology",
+                "ii. demonstrate understanding of the role of the art form in original or displaced contexts",
+                "iii. use acquired knowledge to purposefully inform artistic decisions in the process of creating artwork"
+            ],
+            "1": [
+                "i. demonstrates limited knowledge and understanding of the art form studied, including concepts, processes, and limited use of subject-specific terminology",
+                "ii. demonstrates limited understanding of the role of the art form in original or displaced contexts",
+                "iii. demonstrates limited use of acquired knowledge to purposefully inform artistic decisions in the process of creating artwork."
+            ],
+            "3": [
+                "i. demonstrates adequate knowledge and understanding of the art form studied, including concepts, processes, and adequate use of subject-specific terminology",
+                "ii. demonstrates adequate understanding of the role of the art form in original or displaced contexts",
+                "iii. demonstrates adequate use of acquired knowledge to purposefully inform artistic decisions in the process of creating artwork."
+            ],
+            "5": [
+                "i. demonstrates substantial knowledge and understanding of the art form studied, including concepts, processes, and substantial use of subject-specific terminology",
+                "ii. demonstrates substantial understanding of the role of the art form in original or displaced contexts",
+                "iii. demonstrates substantial use of acquired knowledge to purposefully inform artistic decisions."
+            ],
+            "7": [
+                "i. demonstrates excellent knowledge and understanding of the art form studied, including concepts, processes, and excellent use of subject-specific terminology",
+                "ii. demonstrates excellent understanding of the role of the art form in original or displaced contexts",
+                "iii. demonstrates excellent use of acquired knowledge to purposefully inform artistic decisions in the process of creating artwork."
+            ]
+        },
+        "B": {
+            "Descriptors": [
+                "i. demonstrate the acquisition and development of the skills and techniques of the art form studied",
+                "ii. demonstrate the application of skills and techniques to create, perform and/or present art."
+            ],
+            "1": [
+                "i. demonstrates limited acquisition and development of the skills and techniques of the art form studied",
+                "ii. demonstrates limited application of skills and techniques to create, perform and/or present art."
+            ],
+            "3": [
+                "i. demonstrates adequate acquisition and development of the skills and techniques of the art form studied",
+                "ii. demonstrates adequate application of skills and techniques to create, perform and/or present art."
+            ],
+            "5": [
+                "i. demonstrates substantial acquisition and development of the skills and techniques of the art form studied",
+                "ii. demonstrates substantial application of skills and techniques to create, perform and/or present art."
+            ],
+            "7": [
+                "i. demonstrates excellent acquisition and development of the skills and techniques of the art form studied",
+                "ii. demonstrates excellent application of skills and techniques to create, perform and/or present art."
+            ]
+        },
+        "C": {
+            "Descriptors": [
+                "i. develop a feasible, clear, imaginative and coherent artistic intention",
+                "ii. demonstrate a range and depth of creative-thinking behaviors",
+                "iii. demonstrate the exploration of ideas to shape artistic intention through to a point of realization."
+            ],
+            "1": [
+                "i. develops a limited artistic intention that is rarely feasible, clear, imaginative or coherent",
+                "ii. demonstrates a limited range or depth of creative-thinking behaviors",
+                "iii. demonstrates limited exploration of ideas to shape artistic intention that may reach a point of realization."
+            ],
+            "3": [
+                "i. develops an adequate artistic intention that is occasionally feasible, clear, imaginative and/or coherent",
+                "ii. demonstrates an adequate range and depth of creativethinking behaviors",
+                "iii. demonstrates adequate exploration of ideas to shape artistic intention through to a point of realization."
+            ],
+            "5": [
+                "i. develops a substantial artistic intention that is often feasible, clear, imaginative and coherent",
+                "ii. demonstrates a substantial range and depth of creativethinking behaviors",
+                "iii. demonstrates substantial exploration of ideas to purposefully shape artistic intention through to a point of realization."
+            ],
+            "7": [
+                "i. develops an excellent artistic intention that is consistently feasible, clear, imaginative and coherent",
+                "ii. demonstrates an excellent range and depth of creativethinking behaviors",
+                "iii. demonstrates excellent exploration of ideas to effectively shape artistic intention through to a point of realization."
+            ]
+        },
+        "D": {
+            "Descriptors": [
+                "i. construct meaning and transfer learning to new settings",
+                "ii. create an artistic response that intends to reflect or impact on the world around them",
+                "iii. critique the artwork of self and others."
+            ],
+            "1": [
+                "i. constructs limited meaning and may transfer learning to new settings",
+                "ii. creates a limited artistic response that may intend to reflect or impact on the world around him or her",
+                "iii. presents a limited critique of the artwork of self and others."
+            ],
+            "3": [
+                "i. constructs adequate meaning and occasionally transfers learning to new settings",
+                "ii. creates an adequate artistic response that intends to reflect or impact on the world around him or her",
+                "iii. presents an adequate critique of the artwork of self and others."
+            ],
+            "5": [
+                "i. constructs appropriate meaning and regularly transfers learning to new settings",
+                "ii. creates a substantial artistic response that intends to reflect or impact on the world around him or her",
+                "iii. presents a substantial critique of the artwork of self and others."
+            ],
+            "7": [
+                "i. constructs meaning with depth and insight and effectively transfers learning to new settings",
+                "ii. creates an excellent artistic response that intends to effectively reflect or impact on the world around him or her",
+                "iii. presents an excellent critique of the artwork of self and others."
+            ]
+        }
+    },
+    "Design": {
+        "A": {
+            "Descriptors": [
+                "i. explain and justify the need for a solution to a problem for a specified client/target audience",
+                "ii. identify and prioritize primary and secondary research needed to develop a solution to the problem",
+                "iii. analyse a range of existing products that inspire a solution to the problem",
+                "iv. develop a detailed design brief, which summarizes the analysis of relevant research."
+            ],
+            "1": [
+                "i. states the need for a solution to a problem for a specified client/target audience",
+                "ii. develops a basic design brief, which states the findings of relevant research."
+            ],
+            "3": [
+                "i. outlines the need for a solution to a problem for a specified client/target audience",
+                "ii. outlines a research plan, which identifies primary and secondary research needed to develop a solution to the problem, with some guidance",
+                "iii. analyses one existing product that inspires a solution to the problem",
+                "iv. develops a design brief, which outlines the analysis of relevant research."
+            ],
+            "5": [
+                "i. explains the need for a solution to a problem for a specified client/target audience",
+                "ii. constructs a research plan, which identifies and prioritizes primary and secondary research needed to develop a solution to the problem, with some guidance",
+                "iii. analyses a range of existing products that inspire a solution to the problem",
+                "iv. develops a design brief, which explains the analysis of relevant research."
+            ],
+            "7": [
+                "i. explains and justifies the need for a solution to a problem for a client/ target audience",
+                "ii. constructs a detailed research plan, which identifies and prioritizes the primary and secondary research needed to develop a solution to the problem independently",
+                "iii. analyses a range of existing products that inspire a solution to the problem in detail",
+                "iv. develops a detailed design brief, which summarizes the analysis of relevant research."
+            ]
+        },
+        "B": {
+            "Descriptors": [
+                "i. develop design specifications, which clearly states the success criteria for the design of a solution",
+                "ii. develop a range of feasible design ideas, which can be correctly interpreted by others",
+                "iii. present the chosen design and justify its selection",
+                "iv. develop accurate and detailed planning drawings/diagrams and outline the requirements for the creation of the chosen solution."
+            ],
+            "1": [
+                "i. lists some basic design specifications for the design of a solution",
+                "ii. presents one design, which can be interpreted by others",
+                "iii. creates incomplete planning drawings/diagrams."
+            ],
+            "3": [
+                "i. lists some design specifications, which relate to the success criteria for the design of a solution",
+                "ii. presents a few feasible designs, using an appropriate medium(s) or annotation, which can be interpreted by others",
+                "iii. justifies the selection of the chosen design with reference to the design specification",
+                "iv. creates planning drawings/diagrams or lists requirements for the creation of the chosen solution."
+            ],
+            "5": [
+                "i. develops design specifications, which outline the success criteria for the design of a solution",
+                "ii. develops a range of feasible design ideas, using an appropriate medium(s) and annotation, which can be interpreted by others",
+                "iii. presents the chosen design and justifies its selection with reference to the design specification",
+                "iv. develops accurate planning drawings/diagrams and lists requirements for the creation of the chosen solution."
+            ],
+            "7": [
+                "i. develops detailed design specifications, which explain the success criteria for the design of a solution based on the analysis of the research",
+                "ii. develops a range of feasible design ideas, using an appropriate medium(s) and detailed annotation, which can be correctly interpreted by others",
+                "iii. presents the chosen design and justifies fully and critically its selection with detailed reference to the design specification",
+                "iv. develops accurate and detailed planning drawings/diagrams and outlines requirements for the creation of the chosen solution."
+            ]
+        },
+        "C": {
+            "Descriptors": [
+                "i. construct a logical plan, which describes the efficient use of time and resources, sufficient for peers to be able to follow to create the solution",
+                "ii. demonstrate excellent technical skills when making the solution",
+                "iii. follow the plan to create the solution, which functions as intended",
+                "iv. fully justify changes made to the chosen design and plan when making the solution",
+                "v. present the solution as a whole below."
+            ],
+            "1": [
+                "i. demonstrates minimal technical skills when making the solution",
+                "ii. creates the solution, which functions poorly and is presented in an incomplete form."
+            ],
+            "3": [
+                "i. constructs a plan that contains some production details, resulting in peers having difficulty following the plan",
+                "ii. demonstrates satisfactory technical skills when making the solution",
+                "iii. creates the solution, which partially functions and is adequately presented",
+                "iv. outlines changes made to the chosen design and plan when making the solution."
+            ],
+            "5": [
+                "i. constructs a logical plan, which considers time and resources, sufficient for peers to be able to follow to create the solution",
+                "ii. demonstrates competent technical skills when making the solution",
+                "iii. creates the solution, which functions as intended and is presented appropriately",
+                "iv. describes changes made to the chosen design and plan when making the solution."
+            ],
+            "7": [
+                "i. constructs a detailed and logical plan, which describes the efficient use of time and resources, sufficient for peers to be able to follow to create the solution",
+                "ii. demonstrates excellent technical skills when making the solution.",
+                "iii. follows the plan to create the solution, which functions as intended and is presented appropriately",
+                "iv. fully justifies changes made to the chosen design and plan when making the solution."
+            ]
+        },
+        "D": {
+            "Descriptors": [
+                "i. design detailed and relevant testing methods, which generate data, to measure the success of the solution",
+                "ii. critically evaluate the success of the solution against the design specification",
+                "iii. explain how the solution could be improved",
+                "iv. explain the impact of the solution on the client/target audience. descriptors below."
+            ],
+            "1": [
+                "i. designs a testing method, which is used to measure the success of the solution",
+                "ii. states the success of the solution."
+            ],
+            "3": [
+                "i. designs a relevant testing method, which generates data, to measure the success of the solution",
+                "ii. outlines the success of the solution against the design specification based on relevant product testing",
+                "iii. outlines how the solution could be improved",
+                "iv. outlines the impact of the solution on the client/target audience."
+            ],
+            "5": [
+                "i. designs relevant testing methods, which generate data, to measure the success of the solution",
+                "ii. explains the success of the solution against the design specification based on relevant product testing",
+                "iii. describes how the solution could be improved",
+                "iv. explains the impact of the solution on the client/target audience, with guidance."
+            ],
+            "7": [
+                "i. designs detailed and relevant testing methods, which generate data, to measure the success of the solution",
+                "ii. critically evaluates the success of the solution against the design specification based on authentic product testing",
+                "iii. explains how the solution could be improved",
+                "iv. explains the impact of the product on the client/target audience."
+            ]
+        }
+    },
+    "Individuals and Societies": {
+        "A": {
+            "Descriptors": [
+                "i. use a wide range of terminology in context",
+                "ii. demonstrate knowledge and understanding of subject-specific content and concepts through developed descriptions, explanations and examples descriptors below."
+            ],
+            "1": [
+                "i. makes limited relevant of terminology",
+                "ii. demonstrates basic knowledge and understanding of content and concepts with minimal descriptions and/or examples"
+            ],
+            "3": [
+                "i. uses some terminology accurately and appropriately",
+                "ii. demonstrates adequate knowledge and understanding of content and concepts through satisfactory descriptions, explanations and examples"
+            ],
+            "5": [
+                "i. uses a range of terminology accurately and appropriately",
+                "ii. demonstrates substantial knowledge and understanding of content and concepts through descriptions, explanations and examples."
+            ],
+            "7": [
+                "i. consistently uses a range of terminology accurately",
+                "ii. demonstrates detailed knowledge and understanding of content and concepts through thorough, accurate descriptions, explanations and examples. consistently uses relevant vocabulary accurately"
+            ]
+        },
+        "B": {
+            "Descriptors": [
+                "i. formulate/choose a clear and focused research question",
+                "ii. formulate and follow an action plan to explore a research question",
+                "iii. use methods to collect and record relevant information",
+                "iv. evaluate the process and results of the investigation, with guidance descriptors below."
+            ],
+            "1": [
+                "i.formulates a research question that is clear or and describes its relevance",
+                "ii. formulates a limited action plan or does not follow a plan",
+                "iii. collects and records limited information, not always consistent with the research question",
+                "iv. makes a limited evaluation of the process and results of the investigation"
+            ],
+            "3": [
+                "i. formulates/chooses a clear and focused research question and describes its relevance in detail",
+                "ii. formulates and somewhat follows a partial action plan to investigate a research question",
+                "iii. uses methods to collect and record mostly relevant information",
+                "iv. evaluates some aspects on the research process and results of the investigation"
+            ],
+            "5": [
+                "i. formulates/chooses a clear and focused research question and explains its relevance",
+                "ii. formulates and follows a partial action plan to investigate a research question",
+                "iii. uses method(s )to collect and record appropriate, relevant information",
+                "iv. evaluates the process and results of the investigation"
+            ],
+            "7": [
+                "i. formulates/chooses a clear and focused research question and justifies its relevance",
+                "ii. formulates and effectively follows a comprehensive action plan to investigate a research question",
+                "iii. uses methods to collect and record appropriate, varied relevant information",
+                "iv. thoroughly evaluates the investigation process and results"
+            ]
+        },
+        "C": {
+            "Descriptors": [
+                "i. communicate information and ideas effectively using appropriate style for the audience and purpose",
+                "ii. structure information and ideas in a way that is appropriate to the specified format",
+                "iii. document sources of information using a recognized convention descriptors below."
+            ],
+            "1": [
+                "i. communicates information and ideas in a limited way, using a style that is limited in its appropriateness to the audience and purpose",
+                "ii. structures information and ideas according to the specified format in a limited way",
+                "iii. documents sources of information in a limited way"
+            ],
+            "3": [
+                "i. communicates information and ideas satisfactorily by using a style that is somewhat appropriate to the audience and purpose",
+                "ii. structures information and ideas in a way that is somewhat appropriate to the specified format",
+                "iii. sometimes documents sources of information using a recognized convention"
+            ],
+            "5": [
+                "i. communicates information and ideas accurately by using a style that is mostly appropriate to the audience and purpose",
+                "ii. structures information and ideas in a way that is mostly appropriate to the audience and purpose",
+                "iii. often documents sources of information using a recognized convention"
+            ],
+            "7": [
+                "i. communicates information and ideas effectively and accurately by using a style that is completely appropriate to the audience and purpose",
+                "ii. structures information and ideas in a way that is completely appropriate to the specified format",
+                "iii. consistently documents sources of information using a recognized convention"
+            ]
+        },
+        "D": {
+            "Descriptors": [
+                "i. discuss concepts, issues, models, visual representation and/or theories",
+                "ii. synthesize information to make valid, well-supported arguments",
+                "iii. analyse and evaluate a range of sources/data in terms of origin and purpose, examining values and limitations",
+                "iv. interpret different perspectives and their implications. descriptors below."
+            ],
+            "1": [
+                "i. begins to analyze concepts, issues, models, visual representation and/or theories in a limited way",
+                "ii. begins to identify connections between information to make simple arguments",
+                "iii. recognizes the origin and purpose of few sources/data as well as few values and limitations of sources/data",
+                "iv. identifies different perspectives"
+            ],
+            "3": [
+                "i. analyses concepts, issues, models, visual representation and/or theories",
+                "ii. summarizes information to make arguments",
+                "iii. analyses and/or evaluates sources /data in terms of origin and purpose, recognizing some values and limitations",
+                "iv. interprets different perspectives and some of their implications"
+            ],
+            "5": [
+                "i. discuss concepts, issues, models, visual representation and/or theories",
+                "ii. synthesizes information to make valid arguments",
+                "iii. effectively analyses and evaluates a wide range of sources/data in terms of origin and purpose, recognizing values and limitations",
+                "iv. interprets different perspectives and their implications."
+            ],
+            "7": [
+                "i. completes a detailed discussion of concepts, issues, models, visual representation and/or theories",
+                "ii. synthesizes information to make valid, well-supported arguments",
+                "iii. effectively analyses and evaluates a wide range of sources/data in terms of origin and purpose, recognizing values and limitations",
+                "iv. thoroughly interprets a range of different perspectives and their implications."
+            ]
+        }
+    },
+    "Language and Literature": {
+        "A": {
+            "Descriptors": [
+                "i. analyse the content, context, language, structure, technique and style of text(s) and the relationship among texts",
+                "ii. analyse the effects of the creator\u2019s choices on an audience",
+                "iii. justify opinions and ideas, using examples, explanations and terminology",
+                "iv. evaluate similarities and differences by connecting features across and within genres and texts. level descriptors below."
+            ],
+            "1": [
+                "i. provides limited analysis of the content, context, language, structure, technique and style of text(s) and the relationship among texts",
+                "ii. provides limited analysis of the effects of the creator\u2019s choices on an audience",
+                "iii. rarely justifies opinions and ideas with examples or explanations; uses little or no terminology",
+                "iv. evaluates few similarities and differences by making minimal connections in features across and within genres and texts."
+            ],
+            "3": [
+                "i. provides adequate analysis of the content, context, language, structure, technique and style of text(s) and the relationship among texts",
+                "ii. provides adequate analysis of the effects of the creator\u2019s choices on an audience",
+                "iii. justifies opinions and ideas with some examples and explanations, though this may not be consistent; uses some terminology",
+                "iv. evaluates some similarities and differences by making adequate connections in features across and within genres and texts."
+            ],
+            "5": [
+                "i. competently analyses the content, context, language, structure, technique, style of text(s) and the relationship among texts",
+                "ii. competently analyses the effects of the creator\u2019s choices on an audience",
+                "iii. sufficiently justifies opinions and ideas with examples and explanations; uses accurate terminology",
+                "iv. evaluates similarities and differences by making substantial connections in features across and within genres and texts."
+            ],
+            "7": [
+                "i. provides perceptive analysis of the content, context, language, structure, technique, style of text(s) and the relationship among texts",
+                "ii. perceptively analyses the effects of the creator\u2019s choices on an audience",
+                "iii. gives detailed justification of opinions and ideas with a range of examples, and thorough explanations; uses accurate terminology",
+                "iv. perceptively compares and contrasts by making extensive connections in features across and within genres and texts."
+            ]
+        },
+        "B": {
+            "Descriptors": [
+                "i. employ organizational structures that serve the context and intention",
+                "ii. organize opinions and ideas in a sustained, coherent and logical manner",
+                "iii. use referencing and formatting tools to create a presentation style suitable to the context and intention. descriptors below."
+            ],
+            "1": [
+                "i. makes minimal use of organizational structures though these may not always serve the context and intention",
+                "ii. organizes opinions and ideas with a minimal degree of coherence and logic",
+                "iii. makes minimal use of referencing and formatting tools to create a presentation style that may not always be suitable to the context and intention."
+            ],
+            "3": [
+                "i. makes adequate use of organizational structures that serve the context and intention",
+                "ii. organizes opinions and ideas with some degree of coherence and logic",
+                "iii. makes adequate use of referencing and formatting tools to create a presentation style suitable to the context and intention."
+            ],
+            "5": [
+                "i. makes competent use of organizational structures that serve the context and intention",
+                "ii. organizes opinions and ideas in a coherent and logical manner with ideas building on each other",
+                "iii. makes competent use of referencing and formatting tools to create a presentation style suitable to the context and intention."
+            ],
+            "7": [
+                "i. makes sophisticated use of organizational structures that serve the context and intention effectively",
+                "ii. effectively organizes opinions and ideas in a sustained, coherent and logical manner with ideas building on each other in a sophisticated way",
+                "iii. makes excellent use of referencing and formatting tools to create an effective presentation style."
+            ]
+        },
+        "C": {
+            "Descriptors": [
+                "i. produce texts that demonstrate insight, imagination and sensitivity while exploring and reflecting critically on new perspectives and ideas arising from personal engagement with the creative process",
+                "ii. make stylistic choices in terms of linguistic, literary and visual devices, demonstrating awareness of impact on an audience",
+                "iii. select relevant details and examples to develop ideas. descriptors below."
+            ],
+            "1": [
+                "i. produces texts that demonstrate limited personal engagement with the creative process; demonstrates a limited degree of insight, imagination or sensitivity and minimal exploration of and critical reflection on new perspectives and ideas",
+                "ii. makes minimal stylistic choices in terms of linguistic, literary and visual devices, demonstrating limited awareness of impact on an audience",
+                "iii. selects few relevant details and examples to develop ideas."
+            ],
+            "3": [
+                "i. produces texts that demonstrate adequate personal engagement with the creative process; demonstrates some insight, imagination or sensitivity and some exploration of and critical reflection on new perspectives and ideas",
+                "ii. makes some stylistic choices in terms of linguistic, literary and visual devices, demonstrating adequate awareness of impact on an audience",
+                "iii. selects some relevant details and examples to develop ideas."
+            ],
+            "5": [
+                "i. produces texts that demonstrate considerable personal engagement with the creative process; demonstrates considerable insight, imagination or sensitivity and substantial exploration of and critical reflection on new perspectives and ideas",
+                "ii. makes thoughtful stylistic choices in terms of linguistic, literary and visual devices, demonstrating good awareness of impact on an audience",
+                "iii. selects sufficient relevant details and examples to develop ideas."
+            ],
+            "7": [
+                "i. produces texts that demonstrate a high degree of personal engagement with the creative process; demonstrates a high degree of insight, imagination or sensitivity and perceptive exploration of and critical reflection on new perspectives and ideas",
+                "ii. makes perceptive stylistic choices in terms of linguistic, literary and visual devices, demonstrating good awareness of impact on an audience",
+                "iii. selects extensive relevant details and examples to develop ideas with precision."
+            ]
+        },
+        "D": {
+            "Descriptors": [
+                "i. use appropriate and varied vocabulary, sentence structures and forms of expression",
+                "ii. write and speak in a register and style that serve the context and intention",
+                "iii. use correct grammar, syntax and punctuation",
+                "iv. spell (alphabetic languages), write (character languages) and pronounce with accuracy",
+                "v. use appropriate non-verbal communication techniques. below."
+            ],
+            "1": [
+                "i. uses a limited range of appropriate vocabulary and forms of expression",
+                "ii. writes and speaks in an inappropriate register and style that do not serve the context and intention",
+                "iii. uses grammar, syntax and punctuation with limited accuracy; errors often hinder communication",
+                "iv. spells/writes and pronounces with limited accuracy; errors often hinder communication",
+                "v. makes limited and/or inappropriate use of non-verbal communication techniques."
+            ],
+            "3": [
+                "i. uses an adequate range of appropriate vocabulary, sentence structures and forms of expression",
+                "ii. sometimes writes and speaks in a register and style that serve the context and intention",
+                "iii. uses grammar, syntax and punctuation with some degree of accuracy; errors sometimes hinder communication",
+                "iv. spells/writes and pronounces with some degree of accuracy; errors sometimes hinder communication",
+                "v. makes some use of appropriate non-verbal communication techniques."
+            ],
+            "5": [
+                "i. uses a varied range of appropriate vocabulary, sentence structures and forms of expression competently",
+                "ii. writes and speaks competently in a register and style that serve the context and intention",
+                "iii. uses grammar, syntax and punctuation with a considerable degree of accuracy; errors do not hinder effective communication",
+                "iv. spells/writes and pronounces with a considerable degree of accuracy; errors do not hinder effective communication",
+                "v. makes sufficient use of appropriate non-verbal communication techniques."
+            ],
+            "7": [
+                "i. effectively uses a range of appropriate vocabulary, sentence structures and forms of expression",
+                "ii. writes and speaks in a consistently appropriate register and style that serve the context and intention",
+                "iii. uses grammar, syntax and punctuation with a high degree of accuracy; errors are minor and communication is effective",
+                "iv. spells/writes and pronounces with a high degree of accuracy; errors are minor and communication is effective",
+                "v. makes effective use of appropriate non-verbal communication techniques"
+            ]
+        }
+    },
+    "Mathematics": {
+        "A": {
+            "Descriptors": [
+                "i. select appropriate mathematics when solving problems in both familiar and unfamiliar situations",
+                "ii. apply the selected mathematics successfully when solving problems",
+                "iii. solve problems correctly in a variety of contexts. descriptors below."
+            ],
+            "1": [
+                "i. select appropriate mathematics when solving simple problems in familiar situations",
+                "ii. apply the selected mathematics successfully when solving these problems",
+                "iii. generally solve these problems correctly"
+            ],
+            "3": [
+                "i. select appropriate mathematics when solving more complex problems in familiar situations",
+                "ii. apply the selected mathematics successfully when solving these problems",
+                "iii. generally solve these problems correctly."
+            ],
+            "5": [
+                "i. select appropriate mathematics when solving challenging problems in familiar situations",
+                "ii. apply the selected mathematics successfully when solving these problems",
+                "iii. generally solve these problems correctly."
+            ],
+            "7": [
+                "i. select appropriate mathematics when solving challenging problems in both familiar and unfamiliar situations",
+                "ii. apply the selected mathematics successfully when solving these problems",
+                "iii. generally solve these problems correctly. "
+            ]
+        },
+        "B": {
+            "Descriptors": [
+                "i. select and apply mathematical problem-solving techniques to discover complex patterns",
+                "ii. describe patterns as general rules consistent with findings",
+                "iii. prove, or verify and justify, general rules descriptors below."
+            ],
+            "1": [
+                "i. apply, with teacher support, mathematical problem-solving techniques to discover simple patterns",
+                "ii. state predictions consistent with patterns."
+            ],
+            "3": [
+                "i. apply mathematical problem-solving techniques to discover simple patterns",
+                "ii. suggest general rules consistent with findings."
+            ],
+            "5": [
+                "i. select and apply mathematical problem-solving techniques to discover complex patterns",
+                "ii. describe patterns as general rules consistent with findings",
+                "iii. verify the validity of these general rules."
+            ],
+            "7": [
+                "i. select and apply mathematical problem-solving techniques to discover complex patterns",
+                "ii. describe patterns as general rules consistent with correct findings",
+                "iii. prove, or verify and justify, these general rules."
+            ]
+        },
+        "C": {
+            "Descriptors": [
+                "i. use appropriate mathematical language (notation, symbols and terminology) in both oral and written explanations",
+                "ii. use appropriate forms of mathematical representation",
+                "iii. move between different forms of mathematical representation",
+                "iv. communicate complete, coherent, and concise mathematical lines of reasoning",
+                "v. organize information using a logical structure. descriptors below."
+            ],
+            "1": [
+                "i. use limited mathematical language",
+                "ii. use limited forms of mathematical representation to present information",
+                "iii. communicate through lines of reasoning that are difficult to interpret."
+            ],
+            "3": [
+                "i. use some appropriate mathematical language",
+                "ii. use different forms of mathematical representation to present information adequately",
+                "iii. communicate through lines of reasoning that are complete",
+                "iv. adequately organize information using a logical structure."
+            ],
+            "5": [
+                "i. usually use appropriate mathematical language",
+                "ii. usually use appropriate forms of mathematical representation to present information correctly",
+                "iii. usually move between different forms of mathematical representation",
+                "iv. communicate through lines of reasoning that are complete and coherent",
+                "v. present work that is usually organized using a logical structure"
+            ],
+            "7": [
+                "i. consistently use appropriate mathematical language",
+                "ii. use appropriate forms of mathematical representation to consistently present information correctly",
+                "iii. move effectively between different forms of mathematical representation",
+                "iv. communicate through lines of reasoning that are complete, coherent, and concise",
+                "v. present work that is consistently organized using a logical structure."
+            ]
+        },
+        "D": {
+            "Descriptors": [
+                "i. identify relevant elements of authentic real-life situations",
+                "ii. select appropriate mathematical strategies when solving authentic real-life situations",
+                "iii. apply the selected mathematical strategies successfully to reach a solution",
+                "iv. justify the degree of accuracy of a solution",
+                "v. justify whether a solution makes sense in the context of the authentic real-life situation. descriptors below."
+            ],
+            "1": [
+                "i. identify some of the elements of the authentic real-life situation",
+                "ii. apply mathematical strategies to find a solution to the authentic real-life situation, with limited success."
+            ],
+            "3": [
+                "i. identify the relevant elements of the authentic real-life situation",
+                "ii. select, with some success, adequate mathematical strategies to model the authentic real-life situation",
+                "iii. apply mathematical strategies to reach a solution to the authentic real-life situation",
+                "iv. discuss whether the solution makes sense in the context of the authentic real-life situation."
+            ],
+            "5": [
+                "i. identify the relevant elements of the authentic real-life situation",
+                "ii. select adequate mathematical strategies to model the authentic real-life situation",
+                "iii. apply the selected mathematical strategies to reach a valid solution to the authentic real-life situation",
+                "iv. explain the degree of accuracy of the solution",
+                "v. explain whether the solution makes sense in the context of the authentic real-life situation."
+            ],
+            "7": [
+                "i. identify the relevant elements of the authentic real-life situation",
+                "ii. ii. select appropriate mathematical strategies to model the authentic real-life situation",
+                "iii. iii. apply the selected mathematical strategies to reach a correct solution to the authentic real-life situation",
+                "iv. iv. justify the degree of accuracy of the solution",
+                "v. justify whether the solution makes sense in the context of the authentic real-life situation."
+            ]
+        }
+    },
+    "Physical and Health Education": {
+        "A": {
+            "Descriptors": [
+                "i. explain physical health education factual, procedural and conceptual knowledge",
+                "ii. apply physical and health education knowledge to analyse issues and solve problems set in familiar and unfamiliar situations",
+                "iii. apply physical and health terminology effectively to communicate understanding. descriptors below."
+            ],
+            "1": [
+                "i. states physical and health education factual, procedural and conceptual knowledge",
+                "ii. applies physical and health education knowledge to investigate issues and suggest solutions to problems set in familiar situations",
+                "iii. applies physical and health terminology to communicate understanding with limited success."
+            ],
+            "3": [
+                "i. outlines physical and health education factual, procedural and conceptual knowledge",
+                "ii. applies physical and health education knowledge to analyse issues and to solve problems set in familiar situations",
+                "iii. applies physical and health terminology to communicate understanding."
+            ],
+            "5": [
+                "i. identifies physical and health education factual, procedural and conceptual knowledge",
+                "ii. applies physical and health education knowledge to analyse issues to solve problems set in familiar and unfamiliar situations",
+                "iii. applies physical and health terminology consistently to communicate understanding."
+            ],
+            "7": [
+                "i. explains physical and health education factual, procedural and conceptual knowledge",
+                "ii. applies physical and health education knowledge to analyze complex issues to solve complex problems set in familiar and unfamiliar situations",
+                "iii. applies physical and health terminology consistently and effectively to communicate understanding."
+            ]
+        },
+        "B": {
+            "Descriptors": [
+                "i. design, explain and justify plans to improve physical performance and health",
+                "ii. analyse and evaluate the effectiveness of a plan based on the outcome. descriptors below."
+            ],
+            "1": [
+                "i. constructs and outlines a plan to improve physical performance or health",
+                "ii. outlines the effectiveness of a plan based on the outcome."
+            ],
+            "3": [
+                "i. constructs and describes a plan to improve physical performance or health",
+                "ii. explains the effectiveness of a plan based on the outcome."
+            ],
+            "5": [
+                "i. designs and explains a plan to improve physical performance or health",
+                "ii. analyses the effectiveness of a plan based on the outcome."
+            ],
+            "7": [
+                "i. designs, explains and justifies a plan to improve physical performance or health",
+                "ii. analyzes and evaluates the effectiveness of a plan based on the outcome."
+            ]
+        },
+        "C": {
+            "Descriptors": [
+                "i. demonstrate and apply a range of skills and techniques effectively",
+                "ii. demonstrate and apply a range of strategies and movement concepts",
+                "iii. analyse and apply information to perform effectively. descriptors below."
+            ],
+            "1": [
+                "i. demonstrates and applies skills and techniques with limited success",
+                "ii. demonstrates and applies strategies and movement concepts with limited success",
+                "iii. recalls information to perform."
+            ],
+            "3": [
+                "i. demonstrates and applies skills and techniques",
+                "ii. demonstrates and applies strategies and movement concepts",
+                "iii. identifies and applies information to perform."
+            ],
+            "5": [
+                "i. demonstrates and applies a range of skills and techniques",
+                "ii. demonstrates and applies a range of strategies and movement concepts",
+                "iii. analyses and applies information to perform."
+            ],
+            "7": [
+                "i. demonstrates and applies a range of complex skills and techniques",
+                "ii. demonstrates and applies a range of complex strategies and movement concepts",
+                "iii. analyses and applies information to perform effectively."
+            ]
+        },
+        "D": {
+            "Descriptors": [
+                "i. explain and demonstrate strategies to enhance interpersonal skills",
+                "ii. develop goals and apply strategies to enhance performance",
+                "iii. analyse and evaluate performance. descriptors below."
+            ],
+            "1": [
+                "i. identifies and demonstrates strategies to enhance interpersonal skills",
+                "ii. identifies goals to enhance performance",
+                "iii. outlines and summarizes performance."
+            ],
+            "3": [
+                "i. outlines and demonstrates strategies to enhance interpersonal skills",
+                "ii. outlines goals and applies strategies to enhance performance",
+                "iii. describes and summarizes performance."
+            ],
+            "5": [
+                "i. describes and demonstrates strategies to enhance interpersonal skills",
+                "ii. explains goals and applies strategies to enhance performance",
+                "iii. explains and evaluates performance."
+            ],
+            "7": [
+                "i. explains and demonstrates strategies to enhance interpersonal skills",
+                "ii. develops goals and applies strategies to enhance performance",
+                "iii. analyzes and evaluates performance."
+            ]
+        }
+    },
+    "Sciences": {
+        "A": {
+            "Descriptors": [
+                "i. explain scientific knowledge",
+                "ii. apply scientific knowledge and understanding to solve problems set in familiar and unfamiliar situations",
+                "iii. analyse and evaluate information to make scientifically supported judgments. descriptors below."
+            ],
+            "1": [
+                "i. state scientific knowledge",
+                "ii. apply scientific knowledge and understanding to suggest solutions to problems set in familiar situations",
+                "iii. interpret information to make judgments."
+            ],
+            "3": [
+                "i. outline scientific knowledge",
+                "ii. apply scientific knowledge and understanding to solve problems set in familiar situations",
+                "iii. interpret information to make scientifically supported judgments."
+            ],
+            "5": [
+                "i. describe scientific knowledge",
+                "ii. apply scientific knowledge and understanding to solve problems set in familiar situations and suggest solutions to problems set in unfamiliar situations",
+                "iii. analyse information to make scientifically supported judgments."
+            ],
+            "7": [
+                "i. explain scientific knowledge",
+                "ii. apply scientific knowledge and understanding to solve problems set in familiar and unfamiliar situations",
+                "iii. analyze and evaluate information to make scientifically supported judgments."
+            ]
+        },
+        "B": {
+            "Descriptors": [
+                "i. explain a problem or question to be tested by a scientific investigation",
+                "ii. formulate a testable hypothesis and explain it using scientific reasoning",
+                "iii. explain how to manipulate the variables, and explain how data will be collected",
+                "iv. design scientific investigations. descriptors below."
+            ],
+            "1": [
+                "i. state a problem or question to be tested by a scientific investigation",
+                "ii. outline a testable hypothesis",
+                "iii. outline the variables",
+                "iv. design a method, with limited success."
+            ],
+            "3": [
+                "i. outline a problem or question to be tested by a scientific investigation",
+                "ii. formulate a testable hypothesis using scientific reasoning",
+                "iii. outline how to manipulate the variables, and outline how relevant data will be collected",
+                "iv. design a safe method in which he or she selects materials and equipment."
+            ],
+            "5": [
+                "i. describe a problem or question to be tested by a scientific investigation",
+                "ii. formulate and explain a testable hypothesis using scientific reasoning",
+                "iii. describe how to manipulate the variables, and describe how sufficient, relevant data will be collected",
+                "iv. design a complete and safe method in which he or she selects appropriate materials and equipment."
+            ],
+            "7": [
+                "i. explain a problem or question to be tested by a scientific investigation",
+                "ii. formulate and explain a testable hypothesis using correct scientific reasoning",
+                "iii. explain how to manipulate the variables, and explain how sufficient, relevant data will be collected",
+                "iv. design a logical, complete and safe method in which he or she selects appropriate materials and equipment."
+            ]
+        },
+        "C": {
+            "Descriptors": [
+                "i. present collected and transformed data",
+                "ii. interpret data and explain results using scientific reasoning",
+                "iii. evaluate the validity of a hypothesis based on the outcome of the scientific investigation",
+                "iv. evaluate the validity of the method",
+                "v. explain improvements or extensions to the method. below."
+            ],
+            "1": [
+                "i. collect and present data in numerical and/or visual forms",
+                "ii. interpret data",
+                "iii. state the validity of a hypothesis based on the outcome of a scientific investigation",
+                "iv. state the validity of the method based on the outcome of a scientific investigation",
+                "v. state improvements or extensions to the method."
+            ],
+            "3": [
+                "i. correctly collect and present data in numerical and/or visual forms",
+                "ii. accurately interpret data and explain results",
+                "iii. outline the validity of a hypothesis based on the outcome of a scientific investigation",
+                "iv. outline the validity of the method based on the outcome of a scientific investigation",
+                "v. outline improvements or extensions to the method that would benefit the scientific investigation."
+            ],
+            "5": [
+                "i. correctly collect, organize and present data in numerical and/or visual forms",
+                "ii. accurately interpret data and explain results using scientific reasoning",
+                "iii. discuss the validity of a hypothesis based on the outcome of a scientific investigation",
+                "iv. discuss the validity of the method based on the outcome of a scientific investigation",
+                "v. describe improvements or extensions to the method that would benefit the scientific investigation."
+            ],
+            "7": [
+                "i. correctly collect, organize, transform and present data in numerical and/ or visual forms",
+                "ii. accurately interpret data and explain results using correct scientific reasoning",
+                "iii. evaluate the validity of a hypothesis based on the outcome of a scientific investigation",
+                "iv. evaluate the validity of the method based on the outcome of a scientific investigation",
+                "v. explain improvements or extensions to the method that would benefit the scientific investigation."
+            ]
+        },
+        "D": {
+            "Descriptors": [
+                "i. explain the ways in which science is applied and used to address a specific problem or issue",
+                "ii. discuss and evaluate the various implications of using science and its application to solve a specific problem or issue",
+                "iii. apply scientific language effectively",
+                "iv. document the work of others and sources of information used. descriptors below."
+            ],
+            "1": [
+                "i. outline the ways in which science is used to address a specific problem or issue",
+                "ii. outline the implications of using science to solve a specific problem or issue, interacting with a factor",
+                "iii. apply scientific language to communicate understanding but does so with limited success",
+                "iv. document sources, with limited success."
+            ],
+            "3": [
+                "i. summarize the ways in which science is applied and used to address a specific problem or issue",
+                "ii. describe the implications of using science and its application to solve a specific problem or issue, interacting with a factor",
+                "iii. sometimes apply scientific language to communicate understanding",
+                "iv. sometimes document sources correctly."
+            ],
+            "5": [
+                "i. describe the ways in which science is applied and used to address a specific problem or issue",
+                "ii. discuss the implications of using science and its application to solve a specific problem or issue, interacting with a factor",
+                "iii. usually apply scientific language to communicate understanding clearly and precisely",
+                "iv. usually document sources correctly."
+            ],
+            "7": [
+                "i. explain the ways in which science is applied and used to address a specific problem or issue",
+                "ii. discuss and evaluate the implications of using science and its application to solve a specific problem or issue, interacting with a factor",
+                "iii. consistently apply scientific language to communicate understanding clearly and precisely",
+                "iv. document sources completely."
+            ]
+        }
+    }
+}
