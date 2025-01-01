@@ -2,7 +2,7 @@ import numpy as np
 from rank_bm25 import BM25Okapi
 from sklearn.metrics.pairwise import cosine_similarity
 from langchain_openai import OpenAIEmbeddings
-from utilities.define import define
+from app.utilities.define import define
 import os
 from dotenv import load_dotenv
 

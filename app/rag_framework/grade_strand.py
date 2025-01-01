@@ -1,6 +1,6 @@
 import logging
 from openai import OpenAI
-from utilities.define import define
+from app.utilities.define import define
 
 def grade_strand(context, subject, criterion, strand, client, data):
     logging.info(f"Grading strand {strand + 1}.")
