@@ -45,6 +45,4 @@ async def grade(input: Assignment):
         feedback.append(strand_feedback)
     
     final = final_grade(feedback, client, input.criterion, input.subject)
-    print(feedback)
-
     return (feedback,final)
