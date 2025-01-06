@@ -10,12 +10,21 @@ from app.rag_framework.embed import embed
 from app.rag_framework.rag_search import bm25_rag_search
 from app.rag_framework.grade_strand import grade_strand
 from app.rag_framework.final_grade import final_grade
+from fastapi.middleware.cors import CORSMiddleware
 
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 
 
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Adjust as needed
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all HTTP methods (GET, POST, OPTIONS, etc.)
+    allow_headers=["*"],  # Allow all headers
+)
+
 
 class Assignment(BaseModel):
     subject: Literal["Arts", "Design", "Individuals and Societies", "Language and Literature", "Mathematics", "Physical and Health Education", "Sciences"]
