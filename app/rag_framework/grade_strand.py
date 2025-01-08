@@ -27,7 +27,6 @@ def grade_strand(context, subject, criterion, strand, client, data):
     Here is the specific evidence from the assignment:
     \n{context}\n
     Which of these descriptors best fits the level describes the student and give a specific example as to why. Give a working level (1-2, 3-4, 5-6, 7-8) and one piece of specific evidence.
-    (The context is only a small part of the students work, do not count fragmented or a lack of evidence/examples against them)
 
     {descriptors_section}
 
