@@ -19,7 +19,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["ibgrader.com"],  # Adjust as needed
+    allow_origins=["https://ibgrader.com"],  # Adjust as needed
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods (GET, POST, OPTIONS, etc.)
     allow_headers=["*"],  # Allow all headers
