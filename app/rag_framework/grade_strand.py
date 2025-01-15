@@ -45,10 +45,9 @@ def grade_strand(context, subject, criterion, strand, client, data):
     You are part of an important IB MYP grading committee responsible for grading students' work based on specific evidence per strand.
     Here is the specific strand being assessed: \n{data[subject][criterion]["Descriptors"][strand]}
 
-    Here is the specific evidence from the assignment:
+    Here is the specific evidence from the assignment (Note that the given examples are only a part of students work and may be fragmented):
     \n{context}\n
     Which of these descriptors best fits the level describes the student and give a specific example as to why. Give a working level (1-2, 3-4, 5-6, 7-8) and one piece of specific evidence.
-
     {descriptors_section}
 
     --FORMAT-- (STRICT REQUIREMENT)
