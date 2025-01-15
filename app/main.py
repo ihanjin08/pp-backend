@@ -11,6 +11,7 @@ from app.rag_framework.rag_search import bm25_rag_search
 from app.rag_framework.grade_strand import grade_strand
 from app.rag_framework.final_grade import final_grade
 from fastapi.middleware.cors import CORSMiddleware
+from app.rag_framework.parse_grade_output import parse_grade_output
 
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
@@ -44,20 +45,29 @@ async def grade(input: Assignment):
     strands_data = load_json('resources/myp_subject_strands.json')
     chunks = chunk_markdown(input.content, input.chunk_size, input.chunk_overlap)
     embeddings = embed(chunks)
-    feedback = []
+    strands = []
 
     client = OpenAI(
         api_key=os.environ.get("OPENAI_API_KEY"),
     )
 
-    for i, strand in enumerate(strands_data[input.subject][input.criterion]["Descriptors"]):
+    for i, descriptor in enumerate(strands_data[input.subject][input.criterion]["Descriptors"]):
         ranked_chunks = bm25_rag_search(chunks, embeddings, input.subject, input.criterion, i, strands_data)
-        strand_feedback = grade_strand(ranked_chunks, input.subject, input.criterion, i, client, strands_data)
-        feedback.append({"strand": i + 1, "feedback": strand_feedback})
+        raw_output = grade_strand(ranked_chunks, input.subject, input.criterion, i, client, strands_data)
+        
+        # Parse the raw output from `grade_strand`
+        try:
+            parsed_output = parse_grade_output(raw_output)
+            strands.append(parsed_output)
+        except ValueError as e:
+            strands.append({
+                "strand": f"Strand {i + 1}: {descriptor}",
+                "error": str(e)
+            })
 
-    final = final_grade(feedback, client, input.criterion, input.subject)
+    final = final_grade([s["working_level"] for s in strands if "working_level" in s], client, input.criterion, input.subject)
 
     return {
-        "feedback": feedback,
+        "strands": strands,
         "final": int(final)
     }
