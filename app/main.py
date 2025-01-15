@@ -36,16 +36,19 @@ class Assignment(BaseModel):
 
 class GradingResponse(BaseModel):
     feedback: List[Dict[str, str]]  # List of feedback for each strand
-    final: int  # Final grade
+    final: int
 
 
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
 
-
 @app.post("/grade", response_model=GradingResponse)
 async def grade(input: Assignment):
+    # Validate content type
+    if not isinstance(input.content, str):
+        raise ValueError("The content should be a valid string.")
+
     strands_data = load_json('resources/myp_subject_strands.json')
     chunks = chunk_markdown(input.content, input.chunk_size, input.chunk_overlap)
     embeddings = embed(chunks)
