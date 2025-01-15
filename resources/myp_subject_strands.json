@@ -435,36 +435,31 @@
                 "i. use appropriate and varied vocabulary, sentence structures and forms of expression",
                 "ii. write and speak in a register and style that serve the context and intention",
                 "iii. use correct grammar, syntax and punctuation",
-                "iv. spell (alphabetic languages), write (character languages) and pronounce with accuracy",
-                "v. use appropriate non-verbal communication techniques. below."
+                "iv. spell (alphabetic languages), write (character languages) and pronounce with accuracy"
             ],
             "1": [
                 "i. uses a limited range of appropriate vocabulary and forms of expression",
                 "ii. writes and speaks in an inappropriate register and style that do not serve the context and intention",
                 "iii. uses grammar, syntax and punctuation with limited accuracy; errors often hinder communication",
-                "iv. spells/writes and pronounces with limited accuracy; errors often hinder communication",
-                "v. makes limited and/or inappropriate use of non-verbal communication techniques."
+                "iv. spells/writes and pronounces with limited accuracy; errors often hinder communication"
             ],
             "3": [
                 "i. uses an adequate range of appropriate vocabulary, sentence structures and forms of expression",
                 "ii. sometimes writes and speaks in a register and style that serve the context and intention",
                 "iii. uses grammar, syntax and punctuation with some degree of accuracy; errors sometimes hinder communication",
-                "iv. spells/writes and pronounces with some degree of accuracy; errors sometimes hinder communication",
-                "v. makes some use of appropriate non-verbal communication techniques."
+                "iv. spells/writes and pronounces with some degree of accuracy; errors sometimes hinder communication"
             ],
             "5": [
                 "i. uses a varied range of appropriate vocabulary, sentence structures and forms of expression competently",
                 "ii. writes and speaks competently in a register and style that serve the context and intention",
                 "iii. uses grammar, syntax and punctuation with a considerable degree of accuracy; errors do not hinder effective communication",
-                "iv. spells/writes and pronounces with a considerable degree of accuracy; errors do not hinder effective communication",
-                "v. makes sufficient use of appropriate non-verbal communication techniques."
+                "iv. spells/writes and pronounces with a considerable degree of accuracy; errors do not hinder effective communication"
             ],
             "7": [
                 "i. effectively uses a range of appropriate vocabulary, sentence structures and forms of expression",
                 "ii. writes and speaks in a consistently appropriate register and style that serve the context and intention",
                 "iii. uses grammar, syntax and punctuation with a high degree of accuracy; errors are minor and communication is effective",
-                "iv. spells/writes and pronounces with a high degree of accuracy; errors are minor and communication is effective",
-                "v. makes effective use of appropriate non-verbal communication techniques"
+                "iv. spells/writes and pronounces with a high degree of accuracy; errors are minor and communication is effective"
             ]
         }
     },
