@@ -1,7 +1,22 @@
 from openai import OpenAI
 from app.utilities.define import define
+import re
 
 def grade_strand(context, subject, criterion, strand, client, data):
+    """
+    Grades a strand by analyzing the provided context and descriptors.
+
+    Args:
+        context (list): The ranked context chunks for the strand.
+        subject (str): The subject of the assignment.
+        criterion (str): The criterion being graded (e.g., "A", "B").
+        strand (int): The index of the strand within the criterion.
+        client (OpenAI): OpenAI client for generating completions.
+        data (dict): JSON data containing subject, criterion, and descriptor information.
+
+    Returns:
+        dict: A structured dictionary containing strand information.
+    """
     top_k = 5
     top_chunks_bm25 = ['"'+context[i]+'"' for i in range(min(top_k, len(context)))]
     context = "\n".join(top_chunks_bm25)
@@ -18,7 +33,13 @@ def grade_strand(context, subject, criterion, strand, client, data):
 
     # Skip if no descriptors exist for the strand
     if not descriptors_section.strip():
-        return None
+        return {
+            "strand": f"Strand {strand + 1}: {data[subject][criterion]['Descriptors'][strand]}",
+            "feedback": "No descriptors available for this strand.",
+            "evidence": [],
+            "working_level": None,
+            "reasoning": "No grading was possible due to lack of descriptors."
+        }
 
     prompt = f"""
     You are part of an important IB MYP grading committee responsible for grading students' work based on specific evidence per strand.
@@ -44,4 +65,29 @@ def grade_strand(context, subject, criterion, strand, client, data):
         model="gpt-4o-mini",
     )
 
-    return chat_completion.choices[0].message.content
+    response = chat_completion.choices[0].message.content
+
+    # Parse and structure the output
+    return {
+        "strand": f"Strand {strand + 1}: {data[subject][criterion]['Descriptors'][strand]}",
+        "working_level": extract_working_level(response),
+        "evidence": extract_evidence(response),
+        "reasoning": extract_reasoning(response)
+    }
+
+
+def extract_working_level(response: str):
+    match = re.search(r"Working Level: \((.*?)\)", response)
+    return match.group(1) if match else None
+
+
+def extract_evidence(response: str):
+    match = re.search(r"Specific Evidence: (.+)", response)
+    if not match:
+        return []
+    return [e.strip('" ') for e in match.group(1).split('",') if e.strip()]
+
+
+def extract_reasoning(response: str):
+    match = re.search(r"Reasoning: (.+)", response)
+    return match.group(1) if match else None

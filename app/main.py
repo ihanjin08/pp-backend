@@ -11,24 +11,33 @@ from app.rag_framework.rag_search import bm25_rag_search
 from app.rag_framework.grade_strand import grade_strand
 from app.rag_framework.final_grade import final_grade
 from fastapi.middleware.cors import CORSMiddleware
-from app.rag_framework.parse_grade_output import parse_grade_output
 
+# Load environment variables
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 
-
+# Initialize FastAPI app
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["https://ibgrader.com"],  # Adjust as needed
     allow_credentials=True,
-    allow_methods=["*"],  # Allow all HTTP methods (GET, POST, OPTIONS, etc.)
+    allow_methods=["*"],  # Allow all HTTP methods
     allow_headers=["*"],  # Allow all headers
 )
 
 
+# Define request model
 class Assignment(BaseModel):
-    subject: Literal["Arts", "Design", "Individuals and Societies", "Language and Literature", "Mathematics", "Physical and Health Education", "Sciences"]
+    subject: Literal[
+        "Arts",
+        "Design",
+        "Individuals and Societies",
+        "Language and Literature",
+        "Mathematics",
+        "Physical and Health Education",
+        "Sciences"
+    ]
     criterion: Literal["A", "B", "C", "D"]
     content: str
     chunk_size: int | None = 250
@@ -42,32 +51,38 @@ async def root():
 
 @app.post("/grade")
 async def grade(input: Assignment):
+    """
+    Endpoint to grade an assignment based on provided content, subject, and criterion.
+
+    Args:
+        input (Assignment): The input data for grading.
+
+    Returns:
+        dict: The grading results with feedback and a final grade.
+    """
+    # Load subject strand data
     strands_data = load_json('resources/myp_subject_strands.json')
+    
+    # Chunk the content and generate embeddings
     chunks = chunk_markdown(input.content, input.chunk_size, input.chunk_overlap)
     embeddings = embed(chunks)
-    strands = []
 
-    client = OpenAI(
-        api_key=os.environ.get("OPENAI_API_KEY"),
-    )
+    # Initialize the OpenAI client
+    client = OpenAI(api_key=api_key)
 
+    # Process each strand and collect feedback
+    feedback = []
     for i, descriptor in enumerate(strands_data[input.subject][input.criterion]["Descriptors"]):
+        # Rank chunks using BM25 and grade each strand
         ranked_chunks = bm25_rag_search(chunks, embeddings, input.subject, input.criterion, i, strands_data)
-        raw_output = grade_strand(ranked_chunks, input.subject, input.criterion, i, client, strands_data)
-        
-        # Parse the raw output from `grade_strand`
-        try:
-            parsed_output = parse_grade_output(raw_output)
-            strands.append(parsed_output)
-        except ValueError as e:
-            strands.append({
-                "strand": f"Strand {i + 1}: {descriptor}",
-                "error": str(e)
-            })
+        strand_feedback = grade_strand(ranked_chunks, input.subject, input.criterion, i, client, strands_data)
+        feedback.append(strand_feedback)
 
-    final = final_grade([s["working_level"] for s in strands if "working_level" in s], client, input.criterion, input.subject)
+    # Calculate the final grade
+    final = final_grade([f["working_level"] for f in feedback if f["working_level"]], client, input.criterion, input.subject)
 
+    # Return structured response
     return {
-        "strands": strands,
+        "strands": feedback,
         "final": int(final)
     }
