@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from typing import Literal, List, Dict
+from typing import Literal
 from app.utilities.json_utils import load_json
 from app.rag_framework.chunk import chunk_markdown
 from openai import OpenAI
@@ -33,22 +33,12 @@ class Assignment(BaseModel):
     chunk_size: int | None = 250
     chunk_overlap: int | None = 50
 
-
-class GradingResponse(BaseModel):
-    feedback: List[Dict[str, str]]  # List of feedback for each strand
-    final: int
-
-
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
 
-@app.post("/grade", response_model=GradingResponse)
+@app.post("/grade")
 async def grade(input: Assignment):
-    # Validate content type
-    if not isinstance(input.content, str):
-        raise ValueError("The content should be a valid string.")
-
     strands_data = load_json('resources/myp_subject_strands.json')
     chunks = chunk_markdown(input.content, input.chunk_size, input.chunk_overlap)
     embeddings = embed(chunks)
@@ -61,8 +51,7 @@ async def grade(input: Assignment):
     for i, strand in enumerate(strands_data[input.subject][input.criterion]["Descriptors"]):
         ranked_chunks = bm25_rag_search(chunks, embeddings, input.subject, input.criterion, i, strands_data)
         strand_feedback = grade_strand(ranked_chunks, input.subject, input.criterion, i, client, strands_data)
-        feedback.append({"strand": i + 1, "feedback": strand_feedback})
-
+        feedback.append(strand_feedback)
+    
     final = final_grade(feedback, client, input.criterion, input.subject)
-
-    return {"feedback": feedback, "final": int(final)}
+    return (feedback,int(final))
