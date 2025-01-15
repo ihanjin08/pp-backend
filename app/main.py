@@ -81,8 +81,7 @@ async def grade(input: Assignment):
     # Calculate the final grade
     final = final_grade([f["working_level"] for f in feedback if f["working_level"]], client, input.criterion, input.subject)
 
-    # Return structured response
     return {
         "strands": feedback,
-        "final": int(final)
+        "final": final
     }

@@ -68,8 +68,9 @@ def grade_strand(context, subject, criterion, strand, client, data):
     response = chat_completion.choices[0].message.content
 
     # Parse and structure the output
+    print(response)
     return {
-        "strand": f"Strand {strand + 1}: {data[subject][criterion]['Descriptors'][strand]}",
+        "strand": f"{data[subject][criterion]['Descriptors'][strand]}",
         "working_level": extract_working_level(response),
         "evidence": extract_evidence(response),
         "reasoning": extract_reasoning(response)
@@ -77,17 +78,18 @@ def grade_strand(context, subject, criterion, strand, client, data):
 
 
 def extract_working_level(response: str):
-    match = re.search(r"Working Level: \((.*?)\)", response)
+    match = re.search(r"Working Level: (\d-\d)", response)
     return match.group(1) if match else None
 
-
 def extract_evidence(response: str):
-    match = re.search(r"Specific Evidence: (.+)", response)
+    match = re.search(r"Specific Evidence: (.+)", response, re.DOTALL)
     if not match:
         return []
-    return [e.strip('" ') for e in match.group(1).split('",') if e.strip()]
+    evidence = match.group(1).strip()
+    # Split evidence by quotes and clean up
+    return [e.strip('" ') for e in re.findall(r'"(.*?)"', evidence)]
 
 
 def extract_reasoning(response: str):
-    match = re.search(r"Reasoning: (.+)", response)
-    return match.group(1) if match else None
+    match = re.search(r"Reasoning: (.+)", response, re.DOTALL)
+    return match.group(1).strip() if match else None
